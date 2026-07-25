@@ -3,6 +3,7 @@ body
 {
 font-size:20px;
 font-family:Roboto Condensed;
+
 }
 p
 {
@@ -34,4 +35,60 @@ ol ol
 ol ul
 {
  list-style:none;
+}
+
+/*------------------------------*/
+table
+{
+    margin: 15px auto;
+    border:solid 4px;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+thead
+{
+    background-color:#5555BB;
+    color:aqua;
+}
+thead tr
+{
+    border:solid 2px;
+}
+th, td
+{
+    border:solid 1px;
+}
+td
+{
+    text-align: center;
+    width: 25%;
+}
+thead th 
+{
+    padding: 15px 32px;
+}
+tbody th
+{
+    text-align:left;
+    padding-left: 5px;
+}
+caption
+{
+   font-style:italic;  
+}
+tbody tr:nth-child(even)
+{
+    background-color:lightgreen;
+}
+/*--------------------------------*/
+
+table:hover
+{
+    box-shadow:-40px -40px 50px 0px gray,
+    40px 40px 50px 0px darkgreen;
+/* shiftX shiftY blur spread color */
+}
+tr:hover
+{
+    box-shadow:inset 0px -2px 4px 1px blue;
 }
